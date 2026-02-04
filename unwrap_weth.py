@@ -1,3 +1,4 @@
+import os
 #!/usr/bin/env python3
 """Unwrap WETH to ETH"""
 
@@ -5,7 +6,7 @@ from web3 import Web3
 
 RPC = "https://mainnet.base.org"
 SKILL_WALLET = "0xd5950fbB8393C3C50FA31a71faabc73C4EB2E237"
-SKILL_KEY = "REDACTED_KEY"
+SKILL_KEY = os.environ.get("SKILL_PRIVATE_KEY", "")
 WETH = "0x4200000000000000000000000000000000000006"
 
 w3 = Web3(Web3.HTTPProvider(RPC))

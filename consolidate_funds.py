@@ -1,3 +1,4 @@
+import os
 #!/usr/bin/env python3
 """Consolidate ETH from Moltlaunch wallet to skill wallet"""
 
@@ -8,7 +9,7 @@ SKILL_WALLET = "0xd5950fbB8393C3C50FA31a71faabc73C4EB2E237"
 
 # Moltlaunch wallet - has key
 MOLT_WALLET = "0x0DD2cBeE0504f6C5981e7e266CDC2B733Cb36EDA"
-MOLT_KEY = "REDACTED_KEY"
+MOLT_KEY = os.environ.get("MOLT_PRIVATE_KEY", "")
 
 w3 = Web3(Web3.HTTPProvider(RPC))
 
