@@ -1,5 +1,7 @@
 # FRED: Self-Funding AI Trading Agent
 
+[▶️ Watch Demo Video](https://github.com/rickyautobots/fred-x402/raw/main/fred_x402_demo.mp4)
+
 **x402 Hackathon Submission | Feb 2026**
 
 > An autonomous Polymarket trading agent that pays for its own inference through x402 micropayments, with ERC-8004 on-chain identity.
