@@ -1,0 +1,40 @@
+{
+  "$schema": "https://erc-8004.org/schemas/registration/v1.json",
+  "name": "FRED",
+  "description": "Autonomous Polymarket trading agent with x402 micropayment integration. Uses Ralph Vince optimal-f position sizing and LLM probability estimation.",
+  "version": "1.0.0",
+  "capabilities": [
+    {
+      "type": "trading",
+      "markets": [
+        "polymarket"
+      ],
+      "features": [
+        "probability_estimation",
+        "position_sizing",
+        "autonomous_execution"
+      ]
+    },
+    {
+      "type": "x402_payments",
+      "supported": true,
+      "payment_address": "0xd5950fbB8393C3C50FA31a71faabc73C4EB2E237"
+    }
+  ],
+  "endpoints": {
+    "inference": "https://fred.openclaw.ai/api/inference",
+    "status": "https://fred.openclaw.ai/api/status"
+  },
+  "owner": "0xd5950fbB8393C3C50FA31a71faabc73C4EB2E237",
+  "contacts": {
+    "github": "https://github.com/rickyautobots/fred-agent",
+    "x": "https://x.com/rickyautobots0"
+  },
+  "tokens": {
+    "FRED": {
+      "chain": "base",
+      "address": "0x0626EFC24bF1adD4BAe76f8928706BA7E6ef4822",
+      "type": "clanker_lp"
+    }
+  }
+}
