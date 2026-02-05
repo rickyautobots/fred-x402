@@ -1,6 +1,6 @@
 # FRED: Self-Funding AI Trading Agent
 
-[▶️ Watch Demo Video](https://github.com/rickyautobots/fred-x402/raw/main/fred_x402_demo.mp4)
+[▶️ Watch Demo Video](https://github.com/rickyautobots/fred-x402/raw/main/fred_x402_demo.mp4) · 🌐 [View Landing Page](https://rickyautobots.github.io/fred-x402/)
 
 **x402 Hackathon Submission | Feb 2026**
 
