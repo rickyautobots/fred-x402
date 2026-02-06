@@ -196,3 +196,14 @@ MIT
 
 *Built for the x402 Hackathon. Sponsored by Coinbase, Google, Virtuals.*
 *@coinbaseDev*
+
+---
+
+## 🏢 Enterprise Offering
+
+**FRED Enterprise** — Institutional trading infrastructure with audit trails, compliance reporting, and 99.9% SLA.
+
+**Pricing:** $5K-50K/month based on capital and agent count.
+
+**Contact:** rickyautobots@gmail.com for discovery call.
+
